@@ -1,0 +1,108 @@
+[
+   {
+    "type": "BIONIC_ITEM",
+    "category": "bionics",
+    "id": "bio_advblaster",
+    "symbol": ">",
+    "color": "blue",
+    "name": "Advanced Fusion Blaster Arm",
+    "description": "Your left arm has been surgically replaced by a heavy-duty fusion blaster/bolt/shotgun!  You may use your energy banks to fire a plasma blast, plasma bolt, or a plasma spread shot. You can also burn through metal doors.  However, you are unable to use or carry two-handed items, and your strength limits what you can use with your one hand.",
+    "price": 220000,
+    "material": [ "steel", "plastic" ],
+    "weight": 3500,
+    "volume": 20,
+    "bashing": 8,
+    "difficulty": 10
+   },
+   {
+    "id": "bio_advblaster",
+    "type": "bionic",
+    "name": "Advanced Fusion Blaster Arm",
+    "description": "Your left arm has been surgically replaced by a heavy-duty fusion blaster/bolt/shotgun!  You may use your energy banks to fire a plasma blast, plasma bolt, or a plasma spread shot. You can also burn through metal doors.  However, you are unable to use or carry two-handed items, and your strength limits what you can use with your one hand.",
+    "occupied_bodyparts": [ [ "ARM_L", 30 ], [ "HAND_L", 30 ] ],
+    "included_bionics": [ "bio_plasma_blaster", "bio_plasma_bolt", "bio_plasma_shotgun" ],
+    "upgraded_bionic": "bio_blaster",
+    "flags": [ "BIONIC_GUN" ]
+  },{
+    "type": "BIONIC_ITEM",
+    "category": "bionics",
+    "id": "bio_advblasterII",
+    "symbol": ">",
+    "color": "blue",
+    "name": "Advanced Fusion Blaster Arm Mark II",
+    "description": "Your left arm has been surgically replaced by a heavy-duty fusion blaster/bolt/shotgun!  You may use your energy banks to fire a plasma blast, plasma bolt, or a plasma spread shot. You can also burn through metal doors.  However, you are unable to use or carry two-handed items, and your strength limits what you can use with your one hand.",
+    "price": 220000,
+    "material": [ "steel", "plastic" ],
+    "weight": 3500,
+    "volume": 20,
+    "bashing": 8,
+    "difficulty": 10
+   },
+   {
+    "id": "bio_advblasterII",
+    "type": "bionic",
+    "name": "Advanced Fusion Blaster Arm Mark II",
+    "description": "Your left arm has been surgically replaced by a heavy-duty fusion blaster/bolt/shotgun!  You may use your energy banks to fire a plasma blast, plasma bolt, or a plasma spread shot. You can also burn through metal doors.  However, you are unable to use or carry two-handed items, and your strength limits what you can use with your one hand.",
+    "occupied_bodyparts": [ [ "ARM_L", 30 ], [ "HAND_L", 30 ] ],
+    "included_bionics": [ "bio_plasma_blasterII", "bio_plasma_boltII", "bio_plasma_shotgunII" ],
+    "upgraded_bionic": "bio_advblaster",
+    "flags": [ "BIONIC_GUN" ]
+  },
+  {
+    "id": "bio_plasma_blaster",
+    "type": "bionic",
+    "name": "Plasma Blaster Module Mark I",
+    "description": "Your left arm has been surgically replaced by a heavy-duty plasma multiweapon! This is a standard plasma blaster module for it.",
+    "act_cost": 5,
+    "fake_item": "plasma_blast",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+  },
+  {
+    "id": "bio_plasma_bolt",
+    "type": "bionic",
+    "name": "Plasma Bolt Module Mark I",
+    "description": "Your left arm has been surgically replaced by a heavy-duty fusion multiweapon! This is a standard plasma bolt module for it.",
+    "act_cost": 1,
+    "fake_item": "plasma_bolt",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+  },
+  {
+    "id": "bio_plasma_shotgun",
+    "type": "bionic",
+    "name": "Plasma Shotgun Module Mark I",
+    "description": "Your left arm has been surgically replaced by a heavy-duty fusion multiweapon! This is a standard plasma shotgun module for it.",
+    "act_cost": 5,
+    "fake_item": "plasma_shotgun",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+  },
+  {
+    "id": "bio_plasma_blasterII",
+    "type": "bionic",
+    "name": "Plasma Blaster Module Mark II",
+    "description": "Your left arm has been surgically replaced by a heavy-duty plasma multiweapon! This is an upgraded blaster module.",
+    "act_cost": 5,
+    "fake_item": "plasma_blastII",
+    "upgraded_bionic": "bio_plasma_blaster",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+  },
+  {
+    "id": "bio_plasma_boltII",
+    "type": "bionic",
+    "name": "Plasma Bolt Module Mark II",
+    "description": "Your left arm has been surgically replaced by a heavy-duty fusion multiweapon! This is an upgraded bolt module.",
+    "act_cost": 1,
+    "fake_item": "plasma_boltII",
+    "upgraded_bionic": "bio_plasma_bolt",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+  },
+  {
+    "id": "bio_plasma_shotgunII",
+    "type": "bionic",
+    "name": "Plasma Shotgun Module Mark II",
+    "description": "Your left arm has been surgically replaced by a heavy-duty fusion multiweapon! This is an upgraded shotgun module.",
+    "act_cost": 5,
+    "fake_item": "plasma_shotgunII",
+    "upgraded_bionic": "bio_plasma_shotgun",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
+  }
+]

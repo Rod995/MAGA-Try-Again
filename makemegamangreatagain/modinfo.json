@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "makemegamangreatagain",
+    "name": "MAGA: Try Again",
+    "authors": [ "Rod995" ],
+    "maintainers": [ "Rod995" ],
+    "description": "Beta for the Blaster Arm Buff PR",
+    "category": "balance",
+    "dependencies": [ "dda" ]
+  }
+]
