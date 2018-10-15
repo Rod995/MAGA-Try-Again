@@ -17,7 +17,7 @@
     "type" : "item_group",
     "id" : "bionics_mil",
     "items":[
-      ["bio_blaster", 10]
+      ["bio_blaster", 10],
       ["bio_advblaster", 2]
     ]
   },{
