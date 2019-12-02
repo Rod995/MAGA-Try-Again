@@ -76,6 +76,21 @@
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
   },
   {
+    "type": "BIONIC_ITEM",
+    "category": "bionics",
+    "id": "bio_plasma_blasterII",
+    "symbol": ">",
+    "color": "blue",
+    "name": "Advanced Fusion Blaster Arm",
+    "description": "An official upgrade module for your Plasma Blaster Module MK-II TM!",
+    "price": 220000,
+    "material": [ "steel", "plastic" ],
+    "weight": 3500,
+    "volume": 20,
+    "bashing": 8,
+    "difficulty": 10
+   },
+  {
     "id": "bio_plasma_blasterII",
     "type": "bionic",
     "name": "Plasma Blaster Module Mark II",
@@ -86,6 +101,21 @@
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
   },
   {
+    "type": "BIONIC_ITEM",
+    "category": "bionics",
+    "id": "bio_plasma_boltII",
+    "symbol": ">",
+    "color": "blue",
+    "name": "Advanced Fusion Blaster Arm",
+    "description": "An official upgrade module for your Plasma Bolt Module MK-II TM!",
+    "price": 220000,
+    "material": [ "steel", "plastic" ],
+    "weight": 3500,
+    "volume": 20,
+    "bashing": 8,
+    "difficulty": 10
+   },
+  {
     "id": "bio_plasma_boltII",
     "type": "bionic",
     "name": "Plasma Bolt Module Mark II",
@@ -95,6 +125,21 @@
     "upgraded_bionic": "bio_plasma_bolt",
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
   },
+  {
+    "type": "BIONIC_ITEM",
+    "category": "bionics",
+    "id": "bio_plasma_shotgunII",
+    "symbol": ">",
+    "color": "blue",
+    "name": "Advanced Fusion Blaster Arm",
+    "description": "An official upgrade module for your Plasma Shotgun Module MK-II TM!",
+    "price": 220000,
+    "material": [ "steel", "plastic" ],
+    "weight": 3500,
+    "volume": 20,
+    "bashing": 8,
+    "difficulty": 10
+   },
   {
     "id": "bio_plasma_shotgunII",
     "type": "bionic",
