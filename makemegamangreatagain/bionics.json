@@ -43,7 +43,7 @@
     "type": "bionic",
     "name": "Advanced Fusion Blaster Arm Mark II",
     "description": "Your left arm has been surgically replaced by a heavy-duty fusion blaster/bolt/shotgun!  You may use your energy banks to fire a plasma blast, plasma bolt, or a plasma spread shot. You can also burn through metal doors.  However, you are unable to use or carry two-handed items, and your strength limits what you can use with your one hand.",
-    "occupied_bodyparts": [ [ "ARM_L", 30 ], [ "HAND_L", 30 ] ],
+    "occupied_bodyparts": [ [ "ARM_L", 20 ], [ "HAND_L", 20 ] ],
     "included_bionics": [ "bio_plasma_blasterII", "bio_plasma_boltII", "bio_plasma_shotgunII" ],
     "upgraded_bionic": "bio_advblaster",
     "flags": [ "BIONIC_GUN" ]
